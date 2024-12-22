@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel = "stylesheet" href = "style.css">
+    <title>Handmade Code Viewer 1.0</title>
+</head>
+<body>
+    <div class="wrapper">
+        <section class="message-board">
+            <div class="output-message" id="outputMessage">
+                <!-- <div class="message-container">
+                    <span>오후 2:49:17</span>
+                    <span>홍합</span>
+                </div>
+                <div class="message-container">
+                    <span>오후 2:49:17</span>
+                    <span>홍합</span>
+                </div>
+                <div class="message-container">
+                    <span>오후 2:49:17</span>
+                    <span>홍합</span>
+                </div>
+                <div class="message-container">
+                    <span>오후 2:49:17</span>
+                    <span>홍합</span>
+                </div>
+                <div class="message-container">
+                    <span>오후 2:49:17</span>
+                    <span>홍합</span>
+                </div>
+                <div class="message-container">
+                    <span>오후 2:49:17</span>
+                    <span>홍합</span>
+                </div>
+                <div class="message-container">
+                    <span>오후 2:49:17</span>
+                    <span>홍합</span>
+                </div>
+                <div class="message-container">
+                    <span>오후 2:49:17</span>
+                    <span>홍합</span>
+                </div>
+                <div class="message-container">
+                    <span>오후 2:49:17</span>
+                    <span>홍합</span>
+                </div>
+                <div class="message-container">
+                    <span>오후 2:49:17</span>
+                    <span>홍합</span>
+                </div>
+                <div class="message-container">
+                    <span>오후 2:49:17</span>
+                    <span>홍합</span>
+                </div>
+                <div class="message-container">
+                    <span>오후 2:49:17</span>
+                    <span>홍합</span>
+                </div>
+                <div class="message-container">
+                    <span>오후 2:49:17</span>
+                    <span>홍합</span>
+                </div>
+                <div class="message-container">
+                    <span>오후 2:49:17</span>
+                    <span>홍합</span>
+                </div>
+                <div class="message-container">
+                    <span>오후 2:49:17</span>
+                    <span>홍합</span>
+                </div>
+                <div class="message-container">
+                    <span>오후 2:49:17</span>
+                    <span>홍합</span>
+                </div>
+                <div class="message-container">
+                    <span>오후 2:49:17</span>
+                    <span>홍합</span>
+                </div>
+                <div class="message-container">
+                    <span>오후 2:49:17</span>
+                    <span>홍합</span>
+                </div>
+                <div class="message-container">
+                    <span>오후 2:49:17</span>
+                    <span>홍합</span>
+                </div>
+                <div class="message-container">
+                    <span>오후 2:49:17</span>
+                    <span>홍합</span>
+                </div>
+                <div class="message-container">
+                    <span>오후 2:49:17</span>
+                    <span>홍합</span>
+                </div>
+                <div class="message-container">
+                    <span>오후 2:49:17</span>
+                    <span>홍합</span>
+                </div> -->
+            </div>
+            <div class="input-message">
+                <input type="text" id="inputMessage" autocomplete="off" placeholder="무엇이든 말해보세요">
+                <button id="sendButton">전송</button>
+            </div>
+        </section>
+
+        <section class="code-viewer">
+            <header><h1>Handmade Code Viewer 1.0</h1></header>
+            <div class="code-container">
+                <div class="line-number" id="lineNumber">
+                </div>
+                <div class="code-text">
+                    <pre>//핸드메이드 코드는 우리를 둘러싼 모든 것을 기술하기 위한 마크업 언어입니다.</br>//이 코드 열람기는 한편 어떤 말이든 코드로 변환해 줍니다.</br>//무엇이든 말해보세요.</pre>
+                    <pre id="responseOutput"></pre>
+                </div>
+            </div>
+        </section>
+
+        <div class="loading" id="loading">
+            <div class="spinner">
+                <img src="./asset/spinner.svg">
+            </div>
+            <div class="loading-message">
+                코드 변환에 시간이 걸릴 수 있습니다.
+            </div>
+        </div>
+    </div>
+    <script src="./script.js"></script>
+    <script src="./app.js"></script>
+</body>
+</html>
